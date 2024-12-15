@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ashu Beauty Salon for Women</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
+            color: #f1f1f1;
+        }
+
+        h1, h2, h3 {
+            color: #f1f1f1;
+        }
+
+        header {
+            background-color: #004d40;
+            color: white;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header .logo h1 {
+            margin: 0;
+        }
+
+        header nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+        }
+
+        header nav ul li {
+            margin-left: 20px;
+        }
+
+        header nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        header nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        /* Intro Section */
+        .intro {
+            background-color: #f8f0e3;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        .intro h2 {
+            font-size: 2.5em;
+            margin: 0;
+            color: #333;
+        }
+
+        .intro p {
+            margin: 20px 0;
+            color: #333;
+        }
+
+        .cta-button {
+            background-color: #004d40;
+            color: white;
+            padding: 15px 25px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 5px;
+        }
+
+        .cta-button:hover {
+            background-color: #00332a;
+        }
+
+        /* Services Section */
+        .services {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .services h2 {
+            margin-bottom: 20px;
+            color: #f1f1f1;
+        }
+
+        /* Individual Service Sections */
+        .service-item {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: #222222;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-item h3 {
+            margin: 0 0 10px;
+            color: #f1f1f1;
+        }
+
+        .service-item p {
+            color: #f1f1f1;
+        }
+
+        /* Pricing Section */
+        .pricing {
+            background-color: #333333;
+            padding: 40px 20px;
+        }
+
+        .pricing h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: #f1f1f1;
+        }
+
+        table {
+            width: 80%;
+            margin: 0 auto;
+            border-collapse: collapse;
+            text-align: left;
+            background-color: #444444;
+        }
+
+        table th, table td {
+            padding: 15px;
+            border: 1px solid #ddd;
+            color: #f1f1f1;
+        }
+
+        table th {
+            background-color: #004d40;
+            color: white;
+        }
+
+        /* Contact Section */
+        .contact {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #333333;
+        }
+
+        footer {
+            background-color: #004d40;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            <h1>Ashu Beauty Salon for Women</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Section -->
+    <section class="intro">
+        <h2>Welcome to Ashu Beauty Salon for Women</h2>
+        <p>We provide the best beauty treatments for women with a focus on quality, relaxation, and customer satisfaction.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services for Women</h2>
+
+        <!-- Hair Services -->
+        <div class="service-item">
+            <h3>Hair Services</h3>
+            <p>Our hair services are designed to help you look your best with a variety of options to suit your needs. Whether you're looking for a simple haircut or a complete transformation, our expert stylists are here to give you a look you'll love.</p>
+            <ul>
+                <li><strong>Haircut: </strong>Tailored to suit your face shape and style preferences.</li>
+                <li><strong>Stepcut: </strong>A modern haircut technique to add layers and volume.</li>
+                <li><strong>Staining:</strong> Enhance the depth and shine of your natural hair color.</li>
+                <li><strong>Coloring Striking: </strong>Bold and bright hair colors for a dramatic new look.</li>
+                <li><strong>Keratin Treatment: </strong>Smooth and straighten your hair for long-lasting results.</li>
+                <li><strong>Hair Remonding: </strong>A chemical process to straighten and maintain sleek hair.</li>
+                <li><strong>Hair Styling:</strong> Get ready for any event with professional styling services.</li>
+            </ul>
+        </div>
+
+        <!-- Eye Care -->
+        <div class="service-item">
+            <h3>Eye Care</h3>
+            <p>Your eyes are the windows to your soul, and we take special care to highlight them. From eyebrow shaping to upper lip treatment, we provide services that enhance your natural beauty.</p>
+            <ul>
+                <li><strong>Eyebrow Shaping:</strong> Expert shaping to enhance the natural curve of your brows.</li>
+                <li><strong>Upper Lip For Hade: </strong>Smooth away unwanted hair for a flawless finish.</li>
+            </ul>
+        </div>
+
+        <!-- Waxing Services -->
+        <div class="service-item">
+            <h3>Waxing Services</h3>
+            <p>Achieve smooth and silky skin with our professional waxing services. Whether it's for your face, hands, legs, or full body, we use high-quality wax that ensures a painless experience.</p>
+            <ul>
+                <li><strong>Face Wax:</strong> Remove unwanted facial hair for a clear and smooth face.</li>
+                <li><strong>Hand & Leg Wax:</strong> Achieve soft, hair-free hands and legs.</li>
+                <li><strong>Full Body Wax:</strong> Enjoy hair-free skin from head to toe with our full body waxing service.</li>
+            </ul>
+        </div>
+
+        <!-- Makeup Services -->
+        <div class="service-item">
+            <h3>Makeup Services</h3>
+            <p>Our makeup services are perfect for every occasion, from a casual party to your big day. Let our expert makeup artists help you feel beautiful and confident.</p>
+            <ul>
+                <li><strong>Party Makeup:</strong> Get the perfect look for any special occasion.</li>
+                <li><strong>Model Makeup:</strong> Professional makeup for photo shoots and runway events.</li>
+                <li><strong>Mehndi Makeup:</strong> Elegant makeup to complement your traditional outfit.</li>
+                <li><strong>Nikah Makeup: </strong>Beautiful and long-lasting makeup for your wedding ceremony.</li>
+                <li><strong>Bridal Makeup: </strong>Perfect bridal look with personalized makeup that lasts all day.</li>
+                <li><strong>Walima Makeup: </strong>Gorgeous makeup for your Walima ceremony or reception.</li>
+            </ul>
+        </div>
+
+        <!-- Facial Services -->
+        <div class="service-item">
+            <h3>Facial Services</h3>
+            <p>Our facial treatments are designed to rejuvenate your skin and give you a healthy glow. Whether you need a relaxing facial or a treatment for specific skin concerns, we have the right option for you.</p>
+            <ul>
+                <li><strong>Manicure & Pedicure:</strong> Pamper your hands and feet with our luxurious treatments.</li>
+                <li><strong>Bleach: </strong>Lighten your skin tone and remove blemishes for a radiant look.</li>
+                <li><strong>Skin Polish: </strong>Exfoliate and remove dead skin cells for smooth skin.</li>
+                <li><strong>Facial: </strong>A soothing facial to cleanse and hydrate your skin.</li>
+                <li><strong>Facial Sheet Mask:</strong> Deep nourishment with a sheet mask for glowing skin.</li>
+                <li><strong>Hydra Facial: </strong>A non-invasive facial treatment that deeply cleanses, hydrates, and refreshes the skin.</li>
+                <li><strong>Face Cleansing: Gentle cleansing to refresh your face and remove impurities.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <h2>Pricing</h2>
+        <table>
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Haircut</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Stepcut</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>Statner</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>Coloring Striking</td>
+                <td>3500</td>
+            </tr>
+            <tr>
+                <td>Keratin Treatment</td>
+                <td>5000</td>
+            </tr>
+            <tr>
+                <td>Remonding</td>
+                <td>8000</td>
+            </tr>
+            <tr>
+                <td>Hair Styling</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>Eyebrow Shaping</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Upper Lip Treatment</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Face Wax</td>
+                <td>500</td>
+            </tr>
+            <tr>
+                <td>Hand & Leg Wax</td>
+                <td>800</td>
+            </tr>
+            <tr>
+                <td>Full Body Wax</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>Party Makeup</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>Model Makeup</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>Mehndi Makeup</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td>Nikah Makeup</td>
+                <td>3500</td>
+            </tr>
+            <tr>
+                <td>Bridal Makeup</td>
+                <td>8000</td>
+            </tr>
+            <tr>
+                <td>Walima Makeup</td>
+                <td>6000</td>
+            </tr>
+            <tr>
+                <td>Manicure & Pedicure</td>
+                <td>1000</td>
+            </tr>
+            <tr>
+                <td>Manicure & Pedicure</td>
+                <td>2000</td>
+            </tr>
+            <tr>
+                <td>Bleach</td>
+                <td>250</td>
+            </tr>
+            <tr>
+                <td>Skin Polish</td>
+                <td>300</td>
+            </tr>
+            <tr>
+                <td>Facial</td>
+                <td>800</td>
+            </tr>
+            <tr>
+                <td>Facial Sheet Mask</td>
+                <td>1300</td>
+            </tr>
+            <tr>
+                <td>Hydra Facial</td>
+                <td>3000</td>
+            </tr>
+            <tr>
+                <td>Face Cleansing</td>
+                <td>100</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: 03164579862</p>
+        <p>City: Hyderabad</p>
+        <p>Address: Farooqi Centre 1st Floor Opposite Elegant Tailor, Tilak Chari</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Ashu Beauty Salon for Women. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
